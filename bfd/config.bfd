@@ -676,8 +676,8 @@ case "${targ}" in
     want64=true
     ;;
   x86_64-*-ebbrt*)
-    targ_defvec=bfd_elf64_x86_64_vec
-    targ_selvecs=bfd_elf32_i386_vec
+    targ_defvec=x86_64_elf64_vec
+    targ_selvecs=i386_elf32_vec
     want64=true
     ;;
   x86_64-*-elf*)
